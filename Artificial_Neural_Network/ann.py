@@ -1,24 +1,19 @@
 # Artificial Neural Network
 
-# Installing Theano
-# pip install --upgrade --no-deps git+git://github.com/Theano/Theano.git
-
-# Installing Tensorflow
-# pip install tensorflow
-
-# Installing Keras
-# pip install --upgrade keras
-
 # Part 1 - Data Preprocessing
 
 # Importing the libraries
 
-# Classification template
-
-# Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.layers import Dropout
+#Reduce overfitting by using Dropout
+from keras.wrappers.scikit_learn import KerasClassifier
+from sklearn.model_selection import cross_val_score
 
 # Importing the dataset
 dataset = pd.read_csv('Churn_Modelling.csv')
@@ -58,14 +53,6 @@ X_test = sc.transform(X_test)
 
 #Part 2 - Lets Make an ANN
 
-#Import Keras libraries and packages
-
-import keras
-from keras.models import Sequential
-from keras.layers import Dense
-from keras.layers import Dropout
-#Reduce overfitting by using Dropout
-
 #initializing ANN
 classifier = Sequential()
 
@@ -95,7 +82,7 @@ y_pred = classifier.predict(X_test)
 y_pred = (y_pred > 0.5) 
 
 
-#HOMEWORK
+#Test
 '''
 Geography: France
 Credit score : 600
@@ -121,10 +108,7 @@ cm = confusion_matrix(y_test, y_pred)
 #Testing using K-FOld
 #Mean is to know the general accuracy
 #Variance is to see if it spike the chance. The lower the better
-from keras.wrappers.scikit_learn import KerasClassifier
-from sklearn.model_selection import cross_val_score
-from keras.models import Sequential
-from keras.layers import Dense
+
 def build_classifier():
     classifier = Sequential()
     classifier.add(Dense(units = 6, kernel_initializer='uniform', activation = 'relu', input_dim=11))

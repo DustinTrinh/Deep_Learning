@@ -1,0 +1,49 @@
+Artificial Neural Networks:
+~ http://yann.lecun.com/exdb/publis/pdf/lecun-98b.pdf
+~ http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf
+~ https://stats.stackexchange.com/questions/154879/a-list-of-cost-functions-used-in-neural-networks-alongside-applications
+~ https://iamtrask.github.io/2015/07/27/python-network-part2/
+~ http://neuralnetworksanddeeplearning.com/chap2.html
+
+Convolutional Neural Networks:
+~ http://yann.lecun.com/exdb/publis/pdf/lecun-01a.pdf
+~ https://arxiv.org/pdf/1609.04112.pdf
+~ https://arxiv.org/pdf/1502.01852.pdf
+~ http://ais.uni-bonn.de/papers/icann2010_maxpool.pdf
+~ https://adeshpande3.github.io/adeshpande3.github.io/The-9-Deep-Learning-Papers-You-Need-To-Know-About.html
+~ https://rdipietro.github.io/friendly-intro-to-cross-entropy-loss/
+~ https://peterroelants.github.io/posts/cross-entropy-softmax/
+
+Recurrent Neural Networks:
+~ http://proceedings.mlr.press/v28/pascanu13.pdf
+~ http://www.bioinf.jku.at/publications/older/2604.pdf
+~ http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+~ https://medium.com/mlreview/understanding-lstm-and-its-diagrams-37e2f46f1714
+~ http://karpathy.github.io/2015/05/21/rnn-effectiveness/
+~ https://arxiv.org/pdf/1506.02078.pdf
+~ https://arxiv.org/pdf/1503.04069.pdf
+~ http://proceedings.mlr.press/v15/glorot11a/glorot11a.pdf
+~ http://ai.dinfo.unifi.it/paolo//ps/tnn-94-gradient.pdf
+
+Self Organizing Maps: 
+~ https://sci2s.ugr.es/keel/pdf/algorithm/articulo/1990-Kohonen-PIEEE.pdf
+~ http://www.ai-junkie.com/ann/som/som1.html
+~ https://www.visualcinnamon.com/2013/07/self-organizing-maps-creating-hexagonal.html
+
+Boltzmann Machines:
+~ http://yann.lecun.com/exdb/publis/pdf/lecun-06.pdf
+~ https://www.cs.toronto.edu/~hinton/absps/fastnc.pdf
+~ http://www.robots.ox.ac.uk/~ojw/files/NotesOnCD.pdf
+~ http://www.iro.umontreal.ca/~lisa/pointeurs/BengioNips2006All.pdf
+~ http://www.gatsby.ucl.ac.uk/~dayan/papers/hdfn95.pdf
+~ http://www.utstat.toronto.edu/~rsalakhu/papers/dbm.pdf
+
+AutoEncoders:
+~ https://www.cs.toronto.edu/~hinton/science.pdf
+~ http://www.jmlr.org/papers/volume11/vincent10a/vincent10a.pdf
+~ http://www.cs.toronto.edu/~larocheh/publications/icml-2008-denoising-autoencoders.pdf
+~ https://arxiv.org/pdf/1312.5663.pdf
+~ http://www.ericlwilkinson.com/blog/2014/11/19/deep-learning-sparse-autoencoders
+~ http://mccormickml.com/2014/05/30/deep-learning-tutorial-sparse-autoencoder/
+~ https://blog.keras.io/building-autoencoders-in-keras.html
+~ https://probablydance.com/2016/04/30/neural-networks-are-impressively-good-at-compression/

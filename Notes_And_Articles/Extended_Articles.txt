@@ -47,3 +47,17 @@ AutoEncoders:
 ~ http://mccormickml.com/2014/05/30/deep-learning-tutorial-sparse-autoencoder/
 ~ https://blog.keras.io/building-autoencoders-in-keras.html
 ~ https://probablydance.com/2016/04/30/neural-networks-are-impressively-good-at-compression/
+
+Face Detection using OpenCV:
+~ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.10.6807&rep=rep1&type=pdf
+~ https://www.researchgate.net/publication/3766402_General_framework_for_object_detection
+~ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.136.2419&rep=rep1&type=pdf
+
+Object detection using SSD:
+~ https://arxiv.org/pdf/1512.02325.pdf
+
+GANs:
+~ https://hackernoon.com/how-do-gans-intuitively-work-2dda07f247a1
+~ https://arxiv.org/pdf/1406.2661.pdf
+~ http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.227.7393&rep=rep1&type=pdf
+~ https://arxiv.org/pdf/1511.06434.pdf
